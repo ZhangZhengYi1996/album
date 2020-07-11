@@ -28,9 +28,77 @@
 .swiper-pagination{
     top: 10px;
 }
-
+/* pic1 */
+.pic1-1,.pic1-2{
+    color: #351a45;
+}
 .pic1-1{
-
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 30px;
+}
+.pic1-2{
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+/* pic2 */
+.pic2-1,.pic2-2,.pic2-3{
+    color: #1c0d40;
+    font-size: 25px;
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* pic3 */
+.pic3-1,.pic3-2,.pic3-3{
+    color: #f8945e;
+    font-size: 25px;
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+/* pic4 */
+.pic4-1,.pic4-2{
+    color: #136c5e;
+    font-size: 25px;
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* pic5 */
+.pic5-1,.pic5-2{
+    color:#f95f5a;
+    font-size: 25px;
+    margin-top:20px;
+    
+}
+/* pic6 */
+.pic6-1,.pic6-2{
+    color:#8699e6;
+    font-size: 25px;
+    margin-top:60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* pic7 */
+.pic7-1,.pic7-2{
+    color:#a8151c;
+    font-size: 25px;
+    margin-top:60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+/* pic8 */
+.pic8-1,.pic8-2,.pic8-3,.pic8-4,.pic8-5{
+    color:#f8580a;
+    font-size: 20px;
+    margin-top:15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
 }
