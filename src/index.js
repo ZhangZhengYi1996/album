@@ -1,6 +1,6 @@
 var swiper = new Swiper('.swiper-container', {
   autoplay: {
-    delay: 2000,//1秒切换一次
+    delay: 3000,//1秒切换一次
     disableOnInteraction: false,
   },
   speed: 300,
@@ -19,4 +19,4 @@ var swiper = new Swiper('.swiper-container', {
       //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
     } 
   }
-});    
+});  
