@@ -1,6 +1,11 @@
 var swiper = new Swiper('.swiper-container', {
+  autoplay: {
+    delay: 2000,//1秒切换一次
+    disableOnInteraction: false,
+  },
   speed: 300,
   direction:"horizontal",
+  loop:true,
   pagination: {
     el: '.swiper-pagination',
   },
