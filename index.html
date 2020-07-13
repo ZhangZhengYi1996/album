@@ -89,9 +89,8 @@
   <script src="./swiper/swiper.animate1.0.3.min.js"></script>
   <script>
     var swiper = new Swiper('.swiper-container', {
-      init: false,
         autoplay: {
-          delay: 3000, //1秒切换一次
+          delay: 3500, //1秒切换一次
           disableOnInteraction: false,
         },
         speed: 300,
@@ -111,11 +110,6 @@
           }
         }
       });
-    swiper.init();
-    var img1 = document.getElementsByClassName("img1");
-    img1.onload = function () {
-      swiper.init;
-    }
   </script>
   <!-- <script type="text/javascript" src="src/index.js"></script> -->
 </body>
