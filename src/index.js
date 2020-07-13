@@ -9,6 +9,7 @@ var swiper = new Swiper('.swiper-container', {
   pagination: {
     el: '.swiper-pagination',
   },
+  preloadImages: true,
   on:{
     init: function(){
       swiperAnimateCache(this); //隐藏动画元素 
