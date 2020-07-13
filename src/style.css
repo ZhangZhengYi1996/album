@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -63,7 +64,7 @@
 .pic4-1,.pic4-2{
     color: #136c5e;
     font-size: 25px;
-    margin-top:20px;
+    margin-top:10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -101,4 +102,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
+}
+.swiper-button-next, .swiper-button-prev{
+    display: none;
+}
+@media screen and (min-width:800px){
+    .swiper-container {
+        width: 500px;
+        /* height: 700px; */
+        /* background-color: pink; */
+    }
+    .swiper-button-next, .swiper-button-prev{
+        display: block;
+        top: 200px;
+    }
 }
